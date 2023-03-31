@@ -411,7 +411,7 @@ button{
   cursor:pointer;
 }
 
-.bg{
+.bg{ 
   position: relative;
   top: 100px;
   text-align: center;
