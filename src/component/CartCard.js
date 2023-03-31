@@ -27,15 +27,9 @@ export const CartCard = ({ product }) => {
           </li>
         </ul>
         <div className="text-center">
-          {/* <a to="#" className="btn btn-black-galacy m-t-5">
-            <button
-              className="an an-cart-alt"
-              onClick={() => removeFromCart(product)}></button>
-            Remove{" "}
-          </a> */}
+        
           <i className="btn btn-black-galacy m-t-5"
             onClick={() => removeFromCart(product)}
-            // className="card__wish-list card__wish-list--solstice card__will-animate"
           >
             Remove
           </i>
